@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Shop-Logo-Graphics-1-580x386.jpg" alt="">
+        
+        <a href="checkout.html">Check out</a>
+    </div>
+    <!-- <i class="fa-solid fa-cart-shopping"></i>    -->
+    <div class="cart">
+        <!-- <div class="product-checkout">
+            <div class="product-img">
+                <img src="https://dnc8pt3q0ulny.cloudfront.net/rp/media/14pmp1.jpg" alt="">
+            </div>
+            <div class="product-detail">
+                <span>product name</span>
+                <span>product price</span>
+            </div>
+            <div class="product-total">
+                <button>+</button>
+                <span>0</span>
+                <button>-</button>
+            </div>
+        </div> -->
+        <div class="checkOut">
+            <div class="close">Close</div>
+            <div class="amount">0</div>
+        </div>
+    </div>
+    <div class="container">
+        <form class="filter">
+            <!-- each item is the filter -->
+            <div class="item">
+                <label for="">Category</label>
+                <select name="category" id="">
+                    <option value="">---</option>
+                    <option value="Pet supplies">Pet supplies</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Home supplies">Home supplies</option>
+                    <option value="Skincare">Skincare</option>
+                    <option value="Android">Android</option>
+                </select>
+            </div>
+
+            <!-- <div class="item">
+                <label for="">Color</label>
+                <select name="color" id="">
+                    <option value="">---</option>
+                    <option value="white">white</option>
+                    <option value="black">black</option>
+                    <option value="grey">green</option>
+                    <option value="blue">blue</option>
+                    <option value="brown">purple</option>
+                </select>
+            </div> -->
+
+            <div class="item">
+                <label for="">Name</label>
+                <input type="text" name="name">
+            </div>
+
+            <div class="item">
+                <label for="">Min Price</label>
+                <input type="number" name="minPrice">
+            </div>
+
+            <div class="item">
+                <label for="">Max Price</label>
+                <input type="number" name="maxPrice">
+            </div>
+
+            <div class="item submit">
+                <button>Search</button>
+            </div>
+            
+        </form>
+
+        <div class="countResults">
+            Found <b id="count">5</b> results
+        </div>
+        <div id="list">
+            <!-- <div class="item">
+                <div class="in-stock">In Stock: 23</div>
+                <img src="https://i.pinimg.com/originals/46/14/bf/4614bfe53e01dc2288e673ded2b946ec.png" alt="">
+                <div class="title">Product Name</div>
+                <div class="price">$100</div>
+                <div id="btn">Add to cart</div>
+            </div> -->
+            <!-- <div class="item">
+                <img src="https://i.pinimg.com/originals/46/14/bf/4614bfe53e01dc2288e673ded2b946ec.png" alt="">
+                <div class="title">Product Name</div>
+                <div class="price">$100</div>
+            </div>
+            <div class="item">
+                <img src="https://i.pinimg.com/originals/46/14/bf/4614bfe53e01dc2288e673ded2b946ec.png" alt="">
+                <div class="title">Product Name</div>
+                <div class="price">$100</div>
+            </div> -->
+        </div>
+    </div>
+      
+      
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

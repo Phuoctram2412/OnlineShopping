@@ -1,0 +1,122 @@
+.form-container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container-inner{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 10px;
+    /* margin-top: 200px; */
+}
+
+.form-container .express-checkout{
+    width: 400px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-container .express-checkout div{
+    color: white;
+}
+.form-container .express-checkout div img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+.form-container .express-checkout div span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form-container .form-container-inner .pay-with-card{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container .form-container-inner form input{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    border: 0.5px solid lightgray;
+}
+
+.form-container .form-container-inner .visa-card{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.form-container .form-container-inner .visa-card i{
+    margin-right: 10px;
+}
+
+.form-container .form-container-inner form .mm{
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-container .form-container-inner form .cvc{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-container .form-container-inner form .city-zip{
+    display: flex;
+    width: 400px;
+}
+.form-container .form-container-inner form .city-zip input{
+    width: 50%;
+}
+
+.form-container .form-container-inner form select{
+    width: 414px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: none;
+    border: 0.5px solid lightgray;
+}
+
+.form-container .form-container-inner form button{
+    width: 420px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+@media (max-width:900px){
+    .form-container{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .logo{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 200px;
+        margin-left: 350px;
+    }
+}
